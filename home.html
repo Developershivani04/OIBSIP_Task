@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Restoran</title>
+</head>
+
+<body>
+    <nav class="nav1-container">
+        <div class="nav-about-div heading">
+            <h1><a href="">Restoran</a></h1>
+        </div>
+        <div class="nav-about-div nav-list">
+            <ul>
+                <li><a href="#main-heading-section">home</a></li>
+                <li><a href="#about-us">about</a></li>
+                <li><a href="#service-section">service</a></li>
+                <li><a href="#food-menu-section">menu</a></li>
+                <li><a href="#book-table-online-section">book table</a></li>
+                <li><a href="#footer-section">contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-about-div book-table">
+            <a href="#book-table-online-section">
+                <p>book a table</p>
+            </a>
+        </div>
+    </nav>
+    <section id="main-heading-section">
+        <div class="main-heading-container">
+            <div class="heading">
+                <h1>Enjoy Our
+                    Delicious Meal
+                </h1>
+                <p class="para">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                    eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <a href="#book-table-online-section">
+                    <p class="link">book a table</p>
+                </a>
+            </div>
+            <div class="moving-img">
+                <img src="images/hero.png" height="100%" width="100%" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="service-section">
+        <div class="about-box-container">
+            <div class="about-box">
+                <h3>Master Chefs</h3>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="about-box">
+                <h3>Quality Food</h3>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="about-box">
+                <h3>Online Order</h3>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="about-box">
+                <h3>24/7 Service</h3>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="about-us-container">
+            <div class="img-box">
+                <div class="img"><img src="images/about-1 (1).jpg" width="100%" height="100%" alt=""></div>
+                <div class="img"><img src="images/about-2.jpg" width="80%" height="80%" style="margin: 36px 0 0 0;"
+                        alt=""></div> <br>
+                <div class="img"><img src="images/about-3.jpg" width="80%" height="80%"
+                        style="    margin: 0 0px 35px 36px" alt=""></div>
+                <div class="img"><img src="images/about-4.jpg" width="100%" height="100%" alt=""></div>
+            </div>
+            <div class="about-div">
+                <h5>about us ____</h5>
+                <h1>Welcome to <br> Restoran</h1>
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum
+                    et lorem et sit, sed stet lorem sit.</p>
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum
+                    et lorem et sit, sed stet lorem sit.</p>
+                <div class="about-expreince-div">
+                    <div class="about-exprince">
+                        <h1>15</h1>
+                        <div class="para">
+                            <p>Years of</p>
+                            <h4>EXPERIENCE</h4>
+                        </div>
+                    </div>
+                    <div class="about-chef">
+                        <h1>50</h1>
+                        <div class="para">
+                            <p>Popular</p>
+                            <h4>MASTER <br> <br> CHEFS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-table">
+                    <a href="">
+                        <p>read more</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="food-menu-section">
+        <div class="food-menu-container">
+            <h3 class="food-menu-text">__ Food Menu __</h3>
+            <h4 class="heading">most popular items</h4>
+            <div class="item-selection-div">
+                <ul>
+                    <li id="dots-1" onclick="currentSlide(1)"><a href="">popular <br> <span>breakfast</span></a></li>
+                    <li id="dots-2" onclick="currentSlide(2)"><a href="">special <br> <span>lunch</span></a></li>
+                    <li id="dots-3" onclick="currentSlide(3)"><a href="">lovely <br><span>dinner</span></a></li>
+                </ul>
+            </div>
+            <div class="different-items-list" id="different-items-list-1">
+                <div class="items-list">
+                    <div class="img"><img src="images/menu-1.jpg" width="100%" height="" alt=""></div>
+                    <div class="item-detail">
+                        <div class="name-and-price">
+                            <h3 class="item-name">
+                                chicken burger
+                            </h3>
+                            <h3 class="item-price">
+                                $115
+                            </h3>
+                        </div>
+                        <p class="about-item">
+                            lpsum ipsum clita erat amet dolor justo diam
+                        </p>
+                    </div>
+                </div>
+                <div class="items-list">
+                    <div class="img"><img src="images/menu-2.jpg" width="100%" height="" alt=""></div>
+                    <div class="item-detail">
+                        <div class="name-and-price">
+                            <h3 class="item-name">
+                                chicken burger
+                            </h3>
+                            <h3 class="item-price">
+                                $115
+                            </h3>
+                        </div>
+                        <p class="about-item">
+                            lpsum ipsum clita erat amet dolor justo diam
+                        </p>
+                    </div>
+                </div>
+                <div class="items-list">
+                    <div class="img"><img src="images/menu-3.jpg" width="100%" height="" alt=""></div>
+                    <div class="item-detail">
+                        <div class="name-and-price">
+                            <h3 class="item-name">
+                                chicken burger
+                            </h3>
+                            <h3 class="item-price">
+                                $115
+                            </h3>
+                        </div>
+
+                        <p class="about-item">
+                            lpsum ipsum clita erat amet dolor justo diam
+                        </p>
+                    </div>
+                </div>
+                <div class="items-list">
+                    <div class="img"><img src="images/menu-4.jpg" width="100%" height="" alt=""></div>
+                    <div class="item-detail">
+                        <div class="name-and-price">
+                            <h3 class="item-name">
+                                chicken burger
+                            </h3>
+                            <h3 class="item-price">
+                                $115
+                            </h3>
+                        </div>
+                        <p class="about-item">
+                            lpsum ipsum clita erat amet dolor justo diam
+                        </p>
+                    </div>
+                </div>
+                <div class="items-list">
+                    <div class="img"><img src="images/menu-5.jpg" width="100%" height="" alt=""></div>
+                    <div class="item-detail">
+                        <div class="name-and-price">
+                            <h3 class="item-name">
+                                chicken burger
+                            </h3>
+                            <h3 class="item-price">
+                                $115
+                            </h3>
+                        </div>
+                        <p class="about-item">
+                            lpsum ipsum clita erat amet dolor justo diam
+                        </p>
+                    </div>
+                </div>
+                <div class="items-list">
+                    <div class="img"><img src="images/menu-6.jpg" width="100%" height="" alt=""></div>
+                    <div class="item-detail">
+                        <div class="name-and-price">
+                            <h3 class="item-name">
+                                chicken burger
+                            </h3>
+                            <h3 class="item-price">
+                                $115
+                            </h3>
+                        </div>
+                        <p class="about-item">
+                            lpsum ipsum clita erat amet dolor justo diam
+                        </p>
+                    </div>
+                </div>
+                <div class="items-list">
+                    <div class="img"><img src="images/menu-4.jpg" width="100%" height="" alt=""></div>
+                    <div class="item-detail">
+                        <div class="name-and-price">
+                            <h3 class="item-name">
+                                chicken burger
+                            </h3>
+                            <h3 class="item-price">
+                                $115
+                            </h3>
+                        </div>
+                        <p class="about-item">
+                            lpsum ipsum clita erat amet dolor justo diam
+                        </p>
+                    </div>
+                </div>
+                <div class="items-list">
+                    <div class="img"><img src="images/menu-8.jpg" width="100%" height="" alt=""></div>
+                    <div class="item-detail">
+                        <div class="name-and-price">
+                            <h3 class="item-name">
+                                chicken burger
+                            </h3>
+                            <h3 class="item-price">
+                                $115
+                            </h3>
+                        </div>
+                        <p class="about-item">
+                            lpsum ipsum clita erat amet dolor justo diam
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="book-table-online-section">
+        <div class="book-a-online-table-container">
+            <div class="video-player-div">
+                <button class="video-ply-btn">
+                    <span></span>
+                </button>
+            </div>
+            <div class="book-a-table-online-div">
+                <h3>reservation ____</h3>
+                <h4>Book A Table Online</h4>
+                <div class="name-email-form">
+                    <input type="text" name="" id="name" placeholder="your name">
+                    <input type="email" name="" id="email" placeholder="your email">
+                </div>
+                <div class="date-time-no-of-people">
+                    <input type="datetime" name="" id="datetime" placeholder="date & time">
+                    <select>no of people
+                        <option value="people 1">people 1</option>
+                        <option value="">people 2</option>
+                        <option value=""> people 3</option>
+                    </select>
+                </div>
+                <textarea name="" id="" cols="30" rows="3" placeholder="Special Request"></textarea><button>book
+                    now</button>
+            </div>
+        </div>
+    </section>
+    <section id="team-member-section">
+        <div class="team-member-container">
+            <div class="team-member-heading">
+                <h3 class="heading"> ___ team member ___</h3>
+                <h4>our master chefs</h4>
+            </div>
+            <div class="chef-member-div-box">
+                <div class="chef-box-fade-up">
+                    <div class="chef-box">
+                        <div class="chef-img">
+                            <img src="images/team-1.jpg" alt="">
+                        </div>
+                        <div class="chef-name">
+                            <h4>full name</h4>
+                            <p>designation</p>
+                        </div>
+                    </div>
+                    <div class="fade-up">
+                        <li><a href="">f</a></li>
+                        <li><a href="">in</a></li>
+                        <li><a href="">i</a></li>
+                    </div>
+                </div>
+                <div class="chef-box-fade-up">
+                    <div class="chef-box">
+                        <div class="chef-img">
+                            <img src="images/team-2.jpg" alt="">
+                        </div>
+                        <div class="chef-name">
+                            <h4>full name</h4>
+                            <p>designation</p>
+                        </div>
+                    </div>
+                    <div class="fade-up">
+                        <li><a href="">f</a></li>
+                        <li><a href="">in</a></li>
+                        <li><a href="">i</a></li>
+                    </div>
+                </div>
+                <div class="chef-box-fade-up">
+                    <div class="chef-box">
+                        <div class="chef-img">
+                            <img src="images/team-3.jpg" alt="">
+                        </div>
+                        <div class="chef-name">
+                            <h4>full name</h4>
+                            <p>designation</p>
+                        </div>
+                    </div>
+                    <div class="fade-up">
+                        <li><a href="">f</a></li>
+                        <li><a href="">in</a></li>
+                        <li><a href="">i</a></li>
+                    </div>
+                </div>
+                <div class="chef-box-fade-up">
+                    <div class="chef-box">
+                        <div class="chef-img">
+                            <img src="images/team-4.jpg" alt="">
+                        </div>
+                        <div class="chef-name">
+                            <h4>full name</h4>
+                            <p>designation</p>
+                        </div>
+                    </div>
+                    <div class="fade-up">
+                        <li><a href="">f</a></li>
+                        <li><a href="">in</a></li>
+                        <li><a href="">i</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="testimonial-container">
+            <div class="testimonial-heading">
+                <h3>___ Testimonial ____</h3>
+                <h4>Our Clients Say!!!</h4>
+            </div>
+            <div class="testimonial-client-div">
+                <div class="client-detail-box">
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </p>
+                    <div class="client-detail">
+                        <div class="img">
+                            <img src="images/testimonial-3.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <h3>Client Name</h3>
+                            <p>profession</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-detail-box">
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </p>
+                    <div class="client-detail">
+                        <div class="img">
+                            <img src="images/testimonial-3.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <h3>Client Name</h3>
+                            <p>profession</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-detail-box">
+                    <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </p>
+                    <div class="client-detail">
+                        <div class="img">
+                            <img src="images/testimonial-3.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <h3>Client Name</h3>
+                            <p>profession</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-section">
+        <footer>
+            <div class="detail-container">
+                <div class="detail-box">
+                    <h4>company ___</h4>
+                    <ul>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">contactus</a></li>
+                        <li><a href="">reservation</a></li>
+                        <li><a href="">privacy policy</a></li>
+                        <li><a href="">term & condition</a></li>
+                    </ul>
+                </div>
+                <div class="detail-box">
+                    <h4>contact ___</h4>
+                    <ul>
+                        <li>123 street, new york, USA</li>
+                        <li>+012 345 67890</li>
+                        <li>info@example.com</li>
+                    </ul>
+                </div>
+                <div class="detail-box">
+                    <h4>opening ___</h4>
+                    <ul>
+                        <li class="day">monday - sunday</li>
+                        <li>09AM - 09PM</li>
+                    </ul> <br>
+                    <ul>
+                        <li class="day">sunday</li>
+                        <li>10AM - 08PM</li>
+                    </ul>
+                </div>
+                <div class="detail-box">
+                    <h4>newsletter ___</h4>
+                    <ul>
+                        <li>
+                            Dolor amet sit justo amet elitr clita ipsum elitr est.</li>
+                        <li><button id="sign-up-button" class="sign-up-button"
+                                onclick="document.getElementById('id01').style.display= 'block'">sign up</button></li>
+                        <div class="modal" id="id01">
+                            <div class="form-div">
+                                <div class="heading">
+                                    <h3>sign up</h3>
+                                    <span id="close-sign-up-div">&times;</span>
+                                </div>
+                                <form action="">
+                                    <div class="input-div email-div">
+                                        <label for="email">email</label>
+                                        <input type="email" name="" id="email">
+                                    </div>
+
+                                    <div class="input-div password-div">
+                                        <label for="password">password</label>
+                                        <input type="password" name="" id="password">
+                                    </div>
+
+                                    <div class="input-div comfirm-password-div">
+                                        <label for="password"> comfirm password</label>
+                                        <input type="password" name="" id="password">
+                                    </div>
+
+                                    <div class="checked-div">
+
+                                        <input type="checkbox" name="" id="checkbox">
+                                        <label for="checked">I accept the term of use & <span><a href="">privacy
+                                                    policy</a></span></label>
+                                    </div>
+
+                                    <div class="sign-up-button-div">
+                                        <button>sign up</button>
+                                    </div>
+
+
+
+                                    <div class="already-user-div">
+                                        <p>already a user ? <span><a href="">login</a></span></p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p>© Your Site Name, All Right Reserved. Designed By HTML Codex
+                    <br><br>
+                    Distributed By ThemeWagon
+                </p>
+            </div>
+        </footer>
+    </section>
+    <script>
+        let modal = document.getElementById("id01");
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none"
+            }
+        }
+
+        let spanCross = document.getElementById("close-sign-up-div");
+        function closesignupFormDiv() {
+            modal.style.display = "none"
+        }
+        spanCross.addEventListener("click", closesignupFormDiv);
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+</html>
